@@ -4,8 +4,8 @@ import { getDirname, path } from '@vuepress/utils'
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'Docs',
-  description: 'Just playing around',
+  title: 'How To',
+  description: 'Web version of HOW TO doc',
    plugins: [
     registerComponentsPlugin({
       // options
