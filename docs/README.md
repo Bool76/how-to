@@ -1,5 +1,5 @@
 ## Tech Stack
 
-1. This is the first item
-2. This is the second item
-1. JSON
+1. Vue (VuePress)
+2. JSON
+3. Yarn
