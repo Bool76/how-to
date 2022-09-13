@@ -4,7 +4,7 @@ import { getDirname, path } from '@vuepress/utils'
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'How To',
+  title: 'How-To: Dev Documentation',
   description: 'Web version of HOW TO doc',
    plugins: [
     registerComponentsPlugin({
@@ -16,3 +16,7 @@ export default defineUserConfig({
     }),
   ],
 })
+
+// module.exports = {
+//   theme: 'vuepress-theme-xx'
+// }
