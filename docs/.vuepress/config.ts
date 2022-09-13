@@ -17,14 +17,12 @@ export default defineUserConfig({
       // NavbarGroup
       {
         text: 'SRAM Development',
-        link: '/sram-development',
         children: [
           '/sram-development/sram-environments.md', 
-          '/group/bar.md'
+          '/sram-development/sram-dev_push-code_backend.md',
+          '/sram-development/sram-dev_push-code_frontend.md'
       ],
       },
-      // string - page file path
-      '/bar/README.md',
     ],
   }),
    plugins: [
