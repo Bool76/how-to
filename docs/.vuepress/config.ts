@@ -20,9 +20,12 @@ export default defineUserConfig({
         children: [
           '/sram-development/sram-dev_dark-theme.md',
           '/sram-development/sram-environments.md', 
+          '/sram-development/sram-dev_models-persistance',
+          '/sram-development/sram-dev_models-presentation',
+          '/sram-development/sram-dev_next-gen-manuals',
           '/sram-development/sram-dev_push-code_backend.md',
           '/sram-development/sram-dev_push-code_frontend.md',
-          '/sram-development/sram-dev_slr2_mvc.md',
+            {text: 'SLR2', children: ['slr2/sram-dev_slr2_mvc.md']},
           '/sram-development/sram-dev_sram-ui_update.md',
       ],
       },
