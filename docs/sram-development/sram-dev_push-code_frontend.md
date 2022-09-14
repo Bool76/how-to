@@ -17,7 +17,7 @@ tags: [
 #### Locally | sram-ui
 1. When complete with your changes go to: package.json
 2. Locate the version number:
-```
+```js
 {
   "name": "@sramplm/sram-ui",
   "files": [
@@ -48,23 +48,23 @@ tags: [
 1. Switch to Main branch and pull recent code
 2. Create new branch (base branch name off of Jira ticket number)
 3. In a terminal navigate to the “slr2.web” directory (you need to be in this directory to run npm commands)
-```
+```bash
 cd slr2.web
 ```
 4. Make note of the new version number. Run the following script to update the package.json dependency for "sram-ui" to the current version (enter in the appropriate new version number):
-```
+```bash
 npm install @sramplm/sram-ui@X.X.XX
 ```
-(e.g. $ npm install @sramplm/sram-ui@0.7.11)
+(e.g. npm install @sramplm/sram-ui@0.7.11)<br>
 5. Verify the version number has updated so go to: package.json
 6. Look for:
-```
+```js
  "dependencies": {
     "@sramplm/sram-ui": "^0.7.11",
 ```
 7. Verify the correct version number is seen
 8. Run build:
-```
+```bash
 npm run build
 ```
 9. Start the slr2 environment locally (via VS Code)

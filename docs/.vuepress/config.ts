@@ -18,9 +18,12 @@ export default defineUserConfig({
       {
         text: 'SRAM Development',
         children: [
+          '/sram-development/sram-dev_dark-theme.md',
           '/sram-development/sram-environments.md', 
           '/sram-development/sram-dev_push-code_backend.md',
-          '/sram-development/sram-dev_push-code_frontend.md'
+          '/sram-development/sram-dev_push-code_frontend.md',
+          '/sram-development/sram-dev_slr2_mvc.md',
+          '/sram-development/sram-dev_sram-ui_update.md',
       ],
       },
     ],
