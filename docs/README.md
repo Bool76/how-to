@@ -14,5 +14,5 @@ Repo == https://github.com/vuejs/vuepress
 4. Yarn (optional)
 
 ### Local environment
-Local Site == http://localhost:8080/ 
+Local Site == http://localhost:8080/  
 Start Env == npm run docs:dev
